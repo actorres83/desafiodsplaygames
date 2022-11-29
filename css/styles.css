@@ -4,6 +4,8 @@
     --color-light-gray: #f0f0f0;
     --color-botton: #DD7E92;
     --color-dark-gray: #383838;
+    --color-white: #ffffff;
+    --color-background-news: #e5e5e5;
 }
 
 * {
@@ -22,12 +24,13 @@ html, body {
     padding: 0 10px;
     width: 100%;
     display: flex;
+    box-shadow: 0 0 20px;
 }
 
 .nav-main {
     height: 90px;
     width: 100%;
-    max-width: 960px;
+    max-width: 990px;
     margin: 0;
     display: flex;
     flex-direction: row;
@@ -35,8 +38,15 @@ html, body {
 
 }
 
+.nav-main h1 {
+    color: var(--color-white);
+    font-size: 18px;
+    margin: 30px 10px;
+}
+
 .nav-itens {
     display: flex;
+    justify-content: flex-end;
     
 }
 
@@ -45,14 +55,37 @@ html, body {
     list-style-type: none;
     margin: 0;
     padding: 0;
+ 
 }
 
 .menu-itens li {
     margin: 35px 30px;
+}
+
+.menu-itens a {
+    color: var(--color-white);
     font-size: 14px;
+    text-decoration: none;
 }
 
 .nav-main img {
     height: 62px;
     margin: 14px 0;
+}
+
+.menu-itens {
+    display: none;
+}
+
+.nav-news {
+    background-color: var(--color-background-news);
+    
+}
+
+
+@media (min-width: 768px) {
+
+    .menu-itens {
+        display: flex;
+    }
 }
