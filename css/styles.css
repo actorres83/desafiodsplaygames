@@ -78,8 +78,36 @@ html, body {
 }
 
 .nav-news {
-    background-color: var(--color-background-news);
+    background-color: var(--color-white);
     
+}
+
+#topic {
+    font-size: 24px;
+    color: var(--color-gray);
+    margin-top: 40px;
+    text-align: center;
+}
+
+.news-container {
+    background-color: var(--color-light-gray);
+    max-height: 493px;
+    max-width: 300px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.news-text {
+    width: 276px;
+    padding: 6px;
+    margin: 10px 12px 6px 12px;
+}
+
+.news-text h2 {
+    color: var(--color-aqua-green);
+    font-size: 16px;
+
 }
 
 
