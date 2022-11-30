@@ -91,11 +91,12 @@ html, body {
 
 .news-container {
     background-color: var(--color-light-gray);
-    max-height: 493px;
-    max-width: 300px;
+    height: 493px;
+    width: 300px;
     border-radius: 8px;
     display: flex;
     justify-content: center;
+    margin: 0 auto;
 }
 
 .news-text {
@@ -110,6 +111,10 @@ html, body {
 
 }
 
+.news-text h3 {
+    color: var(--color-gray);
+    font-size: 12px;
+}
 
 @media (min-width: 768px) {
 
