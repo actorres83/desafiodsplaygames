@@ -79,6 +79,7 @@ html, body {
 
 .nav-news {
     background-color: var(--color-white);
+    padding-bottom: 40px;
     
 }
 
@@ -162,6 +163,66 @@ html, body {
 
 .nav-news input {
     border: none;
+}
+
+.nav-games {
+    background-color: var(--color-light-gray);
+    padding: 20px;
+}
+
+.nav-games h2 {
+    font-size: 24px;
+    color: var(--color-aqua-green);
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.card-game {
+    background-color: var(--color-white);
+    width: 300px;
+    height: 325px;
+    border-radius: 8px;
+    margin: 7px auto 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.4);
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.4);
+}
+
+.card-game img {
+    width: 300px;
+    height: 168px;
+    border-radius: 8px 8px 0 0;
+}
+
+.card-game h3 {
+    font-size: 18px;
+    color: var(--color-gray);
+    margin-top: 27px;
+    margin-bottom: 0;
+}
+
+.card-game span {
+    font-size: 14px;
+    color: var(--color-aqua-green);
+    font-weight: 700;
+}
+
+.card-game p {
+    font-size: 12px;
+    color: var(--color-gray);
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+#game-class {
+    font-size: 36px;
+    color: var(--color-aqua-green);
+    font-weight: 700;
+
 }
 
 @media (min-width: 768px) {
