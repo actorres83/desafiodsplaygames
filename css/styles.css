@@ -6,6 +6,7 @@
     --color-dark-gray: #383838;
     --color-white: #ffffff;
     --color-background-news: #e5e5e5;
+    --color-placeholder: #c4c4c4;
 }
 
 * {
@@ -222,7 +223,39 @@ html, body {
     font-size: 36px;
     color: var(--color-aqua-green);
     font-weight: 700;
+}
 
+.nav-subscribe {
+    background-color: var(--color-white);
+    padding: 20px;
+
+}
+
+.nav-subscribe h2 {
+    font-size: 24px;
+    color: var(--color-gray);
+    display: flex;
+    justify-content: center;
+    margin: 20px auto 10px auto;
+}
+
+.form-card {
+    background-color: var(--color-light-gray) ;
+    height: 603px;
+    width: 300px;
+    margin: 6px auto 20px auto;
+    padding-top: 30px;
+}
+
+.text-input {
+    background-color: var(--color-white);
+    width: 280px;
+    height: 50px;
+    border-radius: 4px;
+    border-color: var(--color-gray);
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
 }
 
 @media (min-width: 768px) {
