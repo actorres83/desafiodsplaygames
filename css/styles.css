@@ -258,6 +258,29 @@ html, body {
     align-items: center;
 }
 
+input::placeholder {
+    padding-left: 22px;
+    font-size: 16px;
+    color: var(--color-placeholder);
+}
+
+.ctrl-plataform {
+    font-size: 16px;
+    color: var(--color-gray);
+    margin: 20px auto 20px 8px;
+}
+
+#ctrl-subscribe {
+    font-size: 16px;
+    color: var(--color-gray);
+    margin: 15px auto 15px 8px;
+}
+
+#ctrl-subscribe input {
+    height: 23px;
+    width: 23px;
+}
+
 @media (min-width: 768px) {
 
     .menu-itens {
