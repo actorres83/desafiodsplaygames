@@ -321,13 +321,16 @@ input::placeholder {
 .footer-container {
     background-color: var(--color-dark-gray);
     color: var(--color-white);
+}
+
+.footer-content {
     display: flex;
     flex-direction: column;
     text-align: center;
     padding: 20px 33px 0 33px;
 }
 
-.footer-container h3 {
+.footer-content h3 {
     font-weight: 400;
     font-size: 14px;
     margin: auto;
@@ -436,5 +439,9 @@ input::placeholder {
     .reset-button {
         max-width: 244px;
         width: calc(100% - 50px);
+    }
+
+    .footer-content {
+        flex-direction: row;
     }
 }
